@@ -2,16 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Implementation of Res2Net with extended modifications (Res2Net-Plus):
-Improvements:  3x3 stem instead of 7x7, BN before activation, Mish activation instead of ReLU
-this file: https://github.com/lessw2020/res2net-plus
-all based on original paper and impl:
-https://arxiv.org/abs/1904.01169v2
-then based on https://github.com/gasvn/Res2Net
-then based on:
-https://github.com/frgfm/Holocron/blob/master/holocron/models/res2net.py
-and finally:
-https://github.com/lessw2020/res2net-plus
+this file is modified from https://github.com/lessw2020/res2net-plus
 """
 
 import torch
